@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.priyamagar.hello">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".register"
+            android:noHistory="true" />
+        <activity
+            android:name=".homepage"
+            android:noHistory="true" />
+        <activity android:name=".grammar" />
+        <activity
+            android:name=".speech"
+            android:noHistory="true" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Levels" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".info" />
+        <activity android:name=".registration" />
+        <activity android:name=".MCQtest" />
+        <activity android:name=".score" />
+        <activity android:name=".books" />
+        <activity android:name=".progressmenu" />
+        <activity
+            android:name=".NavigationD"
+            android:label="@string/title_activity_navigation_d"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

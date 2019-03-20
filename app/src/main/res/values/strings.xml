@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LearnEng</string>
+    <string name="IntroductionT">
+
+
+
+
+ </string>
+    <string name="title_activity_drawer">drawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="title_activity_navigation_d">NavigationD</string>
+
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/login"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.priyamagar.hello.NavigationD"
+    tools:showIn="@layout/app_bar_navigation_d">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="monospace"
+        android:text="LEARN ENGLISH"
+        android:textAlignment="center"
+        android:textColor="?attr/actionModeSplitBackground"
+        android:textColorLink="@color/colorPrimaryDark"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,SpUsage" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="34dp"
+        android:onClick="tutorials"
+        android:text="Tutorials"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:onClick="test1"
+        android:text="Test"
+        android:textSize="20dp"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="43dp"
+        android:onClick="sp"
+        android:text="Speech test"
+        android:textSize="20dp"
+        tools:ignore="HardcodedText,SpUsage" />
+
+
+</RelativeLayout>

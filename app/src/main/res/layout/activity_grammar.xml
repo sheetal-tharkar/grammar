@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_grammar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fillViewport="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbarSize="@dimen/activity_vertical_margin"
+    android:scrollbarStyle="insideOverlay"
+    android:visibility="visible"
+    tools:context="com.example.priyamagar.hello.grammar">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ScrollViewSize">
+
+        <Button
+            android:id="@+id/Intro"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentTop="true"
+            android:background="@drawable/b4"
+            android:onClick="intro"
+            android:text="Introduction"
+            android:textSize="15dp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <Button
+            android:id="@+id/Nouns"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Intro"
+            android:background="@drawable/b4"
+            android:onClick="noun"
+            android:text="Nouns"
+            android:textSize="15dp"
+
+            android:visibility="visible"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <Button
+            android:id="@+id/Pronouns"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Nouns"
+            android:background="@drawable/b4"
+            android:onClick="pronoun"
+            android:text="Pronouns"
+            android:textSize="15dp"
+
+            android:visibility="visible"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <Button
+            android:id="@+id/Adj"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Pronouns"
+            android:background="@drawable/b4"
+            android:onClick="adj"
+            android:text="Adjective"
+            android:textSize="15dp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <Button
+            android:id="@+id/Verbs"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Adj"
+            android:background="@drawable/b4"
+            android:onClick="verbs"
+            android:text="Verbs"
+            android:textSize="15dp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <Button
+            android:id="@+id/Adv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Verbs"
+            android:background="@drawable/b4"
+            android:onClick="adverbs"
+            android:text="Adverbs"
+            android:textSize="15dp"
+
+            android:visibility="visible"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <Button
+            android:id="@+id/Auv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Adv"
+            android:background="@drawable/b4"
+            android:onClick="aux"
+            android:text="Auxiliary Verbs"
+            android:textSize="15dp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <Button
+            android:id="@+id/Prep"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Auv"
+            android:background="@drawable/b4"
+            android:onClick="prepositions"
+            android:text="Prepositions"
+            android:textSize="15dp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <Button
+            android:id="@+id/Articles"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/Prep"
+            android:background="@drawable/b4"
+            android:onClick="art"
+            android:text="Articles"
+            android:textSize="15dp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <Button
+            android:id="@+id/Tenses"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Articles"
+            android:background="@drawable/b4"
+            android:onClick="tense"
+            android:text="Tenses"
+            android:textSize="15dp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <Button
+            android:id="@+id/Phrases"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/Tenses"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/b4"
+            android:onClick="phrases"
+            android:text="Phrases"
+            android:textSize="15dp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <Button
+            android:id="@+id/Idioms"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/Phrases"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/b4"
+            android:onClick="idioms"
+            android:text="Idioms"
+            android:textSize="15dp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <Button
+            android:id="@+id/determiners"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Idioms"
+            android:background="@drawable/b4"
+            android:onClick="determiners"
+            android:text="Determiners"
+            android:textSize="15dp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <Button
+            android:id="@+id/conj"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/determiners"
+            android:background="@drawable/b4"
+            android:onClick="conj"
+            android:text="Conjunctions"
+            android:textSize="15dp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <Button
+            android:id="@+id/Inter"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/conj"
+            android:background="@drawable/b4"
+            android:onClick="inter"
+            android:text="Interjections"
+            android:textSize="15dp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <Button
+            android:id="@+id/Qust"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Inter"
+            android:background="@drawable/b4"
+            android:onClick="quetag"
+            android:text="Question Tags"
+            android:textSize="15dp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText,SpUsage" />
+    </RelativeLayout>
+</ScrollView>
